@@ -17,8 +17,8 @@ public class ComputeMethods5026201017 {
 
     public int roll(){
 	Random dice = new Random();
-	int dice1 = dice.nextInt(7) + 1;
-	int dice2 = dice.nextInt(7) + 1;
+	int dice1 = dice.nextInt(6) + 1;
+	int dice2 = dice.nextInt(6) + 1;
 	int diceSum = dice1 + dice2;
 	System.out.println("The sum of the dice values is "+diceSum);
 	return diceSum;
